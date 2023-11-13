@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AnimationAndroid</string>
+    <string name="open_drag_and_drop_item_in_recycleView">Open drag and drop item in RecycleView</string>
+</resources>
