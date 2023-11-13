@@ -48,4 +48,5 @@ dependencies {
     implementation(libs.junit)
     implementation(libs.androidx.test.ext.junit)
     implementation(libs.espresso)
+    implementation(libs.lottie)
 }

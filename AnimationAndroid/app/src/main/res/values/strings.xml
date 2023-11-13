@@ -2,4 +2,7 @@
     <string name="app_name">AnimationAndroid</string>
     <string name="open_drag_and_drop_item_in_recycleView">Open drag and drop item in RecycleView</string>
     <string name="open_add_to_cart">Open add to cart</string>
+    <string name="open_lottie_animation">Open lottie animation</string>
+    <string name="play_animation">Play Animation</string>
+    <string name="stop_animation">Stop Animation</string>
 </resources>

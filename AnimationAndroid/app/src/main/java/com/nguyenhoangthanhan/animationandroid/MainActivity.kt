@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.nguyenhoangthanhan.animationandroid.addtocard.AddToCardActivity
 import com.nguyenhoangthanhan.animationandroid.databinding.ActivityMainBinding
+import com.nguyenhoangthanhan.animationandroid.lottieanimation.LottieAnimationActivity
 import com.nguyenhoangthanhan.animationandroid.recycleview.dragdropitem.DragDropItemRVActivity
 
 class MainActivity : AppCompatActivity() {
@@ -27,6 +28,11 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnOpenAddToCartAnimation.setOnClickListener {
             startActivity(Intent(this, AddToCardActivity::class.java).also {
+                it.flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
+            })
+        }
+        binding.btnOpenLottieAnimation.setOnClickListener {
+            startActivity(Intent(this, LottieAnimationActivity::class.java).also {
                 it.flags = Intent.FLAG_ACTIVITY_SINGLE_TOP
             })
         }

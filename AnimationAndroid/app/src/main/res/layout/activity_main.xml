@@ -18,17 +18,6 @@
         android:text="@string/open_drag_and_drop_item_in_recycleView" />
 
     <Button
-        android:id="@+id/btn_open_add_to_cart"
-        android:layout_margin="@dimen/margin_small_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textAllCaps="false"
-        android:text="@string/open_drag_and_drop_item_in_recycleView" />
-
-    <Button
         android:id="@+id/btn_open_add_to_cart_animation"
         android:gravity="center_vertical"
         android:layout_margin="@dimen/margin_small_4"
@@ -39,4 +28,16 @@
         app:layout_constraintEnd_toEndOf="@id/btn_open_drag_drop_item_rv"
         android:textAllCaps="false"
         android:text="@string/open_add_to_cart" />
+
+    <Button
+        android:id="@+id/btn_open_lottie_animation"
+        android:gravity="center_vertical"
+        android:layout_margin="@dimen/margin_small_4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_open_add_to_cart_animation"
+        app:layout_constraintStart_toStartOf="@id/btn_open_drag_drop_item_rv"
+        app:layout_constraintEnd_toEndOf="@id/btn_open_drag_drop_item_rv"
+        android:textAllCaps="false"
+        android:text="@string/open_lottie_animation" />
 </androidx.constraintlayout.widget.ConstraintLayout>
