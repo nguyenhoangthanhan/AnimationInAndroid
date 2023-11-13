@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin_small_4">8dp</dimen>
+    <dimen name="margin_normal_1">12dp</dimen>
 
     <dimen name="radius_small_4">8dp</dimen>
     <dimen name="card_elevation_small_4">8dp</dimen>
