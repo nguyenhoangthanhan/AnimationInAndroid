@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AnimationAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".addtocard.AddToCardActivity"
+            android:exported="false" />
+        <activity
             android:name=".recycleview.dragdropitem.DragDropItemRVActivity"
             android:exported="false" />
         <activity

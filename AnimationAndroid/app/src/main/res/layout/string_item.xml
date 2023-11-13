@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/radius_small_4"
+    app:cardElevation="@dimen/card_elevation_small_4"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_small_5"
+        android:paddingVertical="@dimen/padding_normal_2"
+        android:text="Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</com.google.android.material.card.MaterialCardView>
